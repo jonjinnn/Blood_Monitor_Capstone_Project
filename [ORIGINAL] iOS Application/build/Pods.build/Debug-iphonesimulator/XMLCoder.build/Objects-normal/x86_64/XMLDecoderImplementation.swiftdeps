@@ -1,0 +1,567 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XMLDecoderImplementation"
+provides-nominal:
+- "8XMLCoder24XMLDecoderImplementationC"
+provides-member:
+- ["8XMLCoder24XMLDecoderImplementationC", ""]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "keyTransform"]
+provides-dynamic-lookup:
+- "choiceContainer"
+- "codingPath"
+- "container"
+- "errorContextLength"
+- "keyTransform"
+- "keyedContainer"
+- "nodeDecodings"
+- "options"
+- "popContainer"
+- "singleValueContainer"
+- "storage"
+- "topContainer"
+- "typedBox"
+- "unbox"
+- "unkeyedContainer"
+- "userInfo"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "=="
+- !private "AnyOptional"
+- "AssignmentPrecedence"
+- "BinaryInteger"
+- "Bool"
+- !private "BoolBox"
+- "Box"
+- "CastingPrecedence"
+- !private "ChoiceBox"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "Data"
+- !private "DataBox"
+- "Date"
+- !private "DateBox"
+- "Decimal"
+- !private "DecimalBox"
+- "Decodable"
+- "Decoder"
+- !private "DecodingError"
+- "Double"
+- !private "DoubleBox"
+- "Float"
+- !private "FloatBox"
+- "FloatLiteralType"
+- !private "IntBox"
+- "IntegerLiteralType"
+- !private "KeyedBox"
+- "KeyedDecodingContainer"
+- !private "KeyedStorage"
+- !private "NSData"
+- !private "NSDate"
+- !private "NSDecimalNumber"
+- !private "NSString"
+- !private "NSURL"
+- !private "NullBox"
+- !private "SharedBox"
+- "SignedInteger"
+- !private "SingleKeyedBox"
+- "SingleValueDecodingContainer"
+- "String"
+- !private "StringBox"
+- !private "StringLiteralType"
+- "UInt"
+- !private "UIntBox"
+- "URL"
+- !private "URLBox"
+- !private "UnicodeScalarType"
+- !private "UnkeyedBox"
+- "UnkeyedDecodingContainer"
+- "UnsignedInteger"
+- !private "XMLChoiceCodingKey"
+- !private "XMLChoiceDecodingContainer"
+- "XMLDecoder"
+- "XMLDecoderImplementation"
+- "XMLDecodingStorage"
+- !private "XMLKey"
+- !private "XMLKeyedDecodingContainer"
+- !private "XMLUnkeyedDecodingContainer"
+- !private "||"
+depends-member:
+- !private ["8XMLCoder11AnyOptionalP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "first"]
+- ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["8XMLCoder7BoolBoxV", "init"]
+- !private ["8XMLCoder7BoolBoxV", "unboxed"]
+- !private ["8XMLCoder3BoxP", "element"]
+- !private ["8XMLCoder3BoxP", "elements"]
+- !private ["8XMLCoder3BoxP", "first"]
+- !private ["8XMLCoder3BoxP", "init"]
+- !private ["8XMLCoder3BoxP", "isNull"]
+- !private ["8XMLCoder3BoxP", "unbox"]
+- !private ["8XMLCoder3BoxP", "unboxed"]
+- !private ["8XMLCoder3BoxP", "value"]
+- !private ["8XMLCoder3BoxP", "withShared"]
+- !private ["s7CVarArgP", "first"]
+- !private ["8XMLCoder9ChoiceBoxV", "deinit"]
+- !private ["8XMLCoder9ChoiceBoxV", "init"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "elements"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unbox"]
+- !private ["s23CustomStringConvertibleP", "unboxed"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["8XMLCoder7DataBoxV", "init"]
+- !private ["8XMLCoder7DataBoxV", "unboxed"]
+- ["8XMLCoder10XMLDecoderC20DataDecodingStrategyO", "base64"]
+- ["8XMLCoder10XMLDecoderC20DataDecodingStrategyO", "custom"]
+- ["8XMLCoder10XMLDecoderC20DataDecodingStrategyO", "deferredToData"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["8XMLCoder7DateBoxV", "init"]
+- !private ["8XMLCoder7DateBoxV", "unboxed"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "custom"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "deferredToDate"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "formatted"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "iso8601"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "millisecondsSince1970"]
+- ["8XMLCoder10XMLDecoderC20DateDecodingStrategyO", "secondsSince1970"]
+- !private ["8XMLCoder10DecimalBoxV", "init"]
+- !private ["8XMLCoder10DecimalBoxV", "unboxed"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["s7DecoderP", "Bool"]
+- !private ["s7DecoderP", "BoolBox"]
+- !private ["s7DecoderP", "Box"]
+- !private ["s7DecoderP", "ChoiceBox"]
+- !private ["s7DecoderP", "Data"]
+- !private ["s7DecoderP", "DataBox"]
+- !private ["s7DecoderP", "Date"]
+- !private ["s7DecoderP", "DateBox"]
+- !private ["s7DecoderP", "Decimal"]
+- !private ["s7DecoderP", "DecimalBox"]
+- !private ["s7DecoderP", "DecodingError"]
+- !private ["s7DecoderP", "Double"]
+- !private ["s7DecoderP", "DoubleBox"]
+- !private ["s7DecoderP", "Float"]
+- !private ["s7DecoderP", "FloatBox"]
+- !private ["s7DecoderP", "IntBox"]
+- !private ["s7DecoderP", "KeyedBox"]
+- !private ["s7DecoderP", "KeyedDecodingContainer"]
+- !private ["s7DecoderP", "KeyedStorage"]
+- !private ["s7DecoderP", "NSData"]
+- !private ["s7DecoderP", "NSDate"]
+- !private ["s7DecoderP", "NSDecimalNumber"]
+- !private ["s7DecoderP", "NSString"]
+- !private ["s7DecoderP", "NSURL"]
+- !private ["s7DecoderP", "SharedBox"]
+- !private ["s7DecoderP", "SingleKeyedBox"]
+- !private ["s7DecoderP", "String"]
+- !private ["s7DecoderP", "StringBox"]
+- !private ["s7DecoderP", "UIntBox"]
+- !private ["s7DecoderP", "URL"]
+- !private ["s7DecoderP", "URLBox"]
+- !private ["s7DecoderP", "UnkeyedDecodingContainer"]
+- !private ["s7DecoderP", "XMLChoiceDecodingContainer"]
+- !private ["s7DecoderP", "XMLDecoder"]
+- ["s7DecoderP", "XMLDecodingStorage"]
+- !private ["s7DecoderP", "XMLKey"]
+- !private ["s7DecoderP", "XMLKeyedDecodingContainer"]
+- !private ["s7DecoderP", "XMLUnkeyedDecodingContainer"]
+- ["s7DecoderP", ""]
+- !private ["s7DecoderP", "choiceContainer"]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "keyedContainer"]
+- !private ["s7DecoderP", "nodeDecodings"]
+- !private ["s7DecoderP", "options"]
+- ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "storage"]
+- !private ["s7DecoderP", "topContainer"]
+- !private ["s7DecoderP", "typedBox"]
+- !private ["s7DecoderP", "unbox"]
+- ["s7DecoderP", "unkeyedContainer"]
+- ["s7DecoderP", "userInfo"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "dataCorrupted"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- ["s13DecodingErrorO", "valueNotFound"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["8XMLCoder9DoubleBoxV", "deinit"]
+- !private ["8XMLCoder9DoubleBoxV", "init"]
+- !private ["8XMLCoder9DoubleBoxV", "unboxed"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "first"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "unbox"]
+- !private ["SQ", "unboxed"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "dataCorrupted"]
+- !private ["s5ErrorP", "typeMismatch"]
+- ["s5ErrorP", "valueNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["8XMLCoder8FloatBoxV", "deinit"]
+- !private ["8XMLCoder8FloatBoxV", "init"]
+- !private ["8XMLCoder8FloatBoxV", "unboxed"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["8XMLCoder6IntBoxV", "init"]
+- !private ["8XMLCoder6IntBoxV", "unbox"]
+- !private ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "_convertFromCapitalized"]
+- !private ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "_convertFromKebabCase"]
+- !private ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "_convertFromSnakeCase"]
+- ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "convertFromCapitalized"]
+- ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "convertFromKebabCase"]
+- ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "custom"]
+- ["8XMLCoder10XMLDecoderC19KeyDecodingStrategyO", "useDefaultKeys"]
+- ["8XMLCoder8KeyedBoxV", "deinit"]
+- !private ["8XMLCoder8KeyedBoxV", "elements"]
+- !private ["8XMLCoder8KeyedBoxV", "init"]
+- !private ["8XMLCoder8KeyedBoxV", "value"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- !private ["8XMLCoder12KeyedStorageV", "deinit"]
+- !private ["8XMLCoder12KeyedStorageV", "init"]
+- !private ["8XMLCoder12KeyedStorageV", "map"]
+- !private ["8XMLCoder12KeyedStorageV", "subscript"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "dataCorrupted"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["8XMLCoder7NullBoxV", "deinit"]
+- !private ["8XMLCoder10XMLDecoderC7OptionsV", "dataDecodingStrategy"]
+- !private ["8XMLCoder10XMLDecoderC7OptionsV", "dateDecodingStrategy"]
+- !private ["8XMLCoder10XMLDecoderC7OptionsV", "keyDecodingStrategy"]
+- !private ["8XMLCoder10XMLDecoderC7OptionsV", "userInfo"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["8XMLCoder9SharedBoxC", "deinit"]
+- !private ["8XMLCoder9SharedBoxC", "init"]
+- !private ["8XMLCoder9SharedBoxC", "withShared"]
+- !private ["8XMLCoder17SharedBoxProtocolP", "init"]
+- !private ["8XMLCoder17SharedBoxProtocolP", "withShared"]
+- !private ["8XMLCoder9SimpleBoxP", "element"]
+- !private ["8XMLCoder9SimpleBoxP", "init"]
+- !private ["8XMLCoder9SimpleBoxP", "unbox"]
+- !private ["8XMLCoder9SimpleBoxP", "unboxed"]
+- !private ["8XMLCoder14SingleKeyedBoxV", "deinit"]
+- !private ["8XMLCoder14SingleKeyedBoxV", "element"]
+- !private ["8XMLCoder14SingleKeyedBoxV", "init"]
+- !private ["s28SingleValueDecodingContainerP", "Bool"]
+- !private ["s28SingleValueDecodingContainerP", "BoolBox"]
+- !private ["s28SingleValueDecodingContainerP", "Box"]
+- !private ["s28SingleValueDecodingContainerP", "ChoiceBox"]
+- !private ["s28SingleValueDecodingContainerP", "Data"]
+- !private ["s28SingleValueDecodingContainerP", "DataBox"]
+- !private ["s28SingleValueDecodingContainerP", "Date"]
+- !private ["s28SingleValueDecodingContainerP", "DateBox"]
+- !private ["s28SingleValueDecodingContainerP", "Decimal"]
+- !private ["s28SingleValueDecodingContainerP", "DecimalBox"]
+- !private ["s28SingleValueDecodingContainerP", "DecodingError"]
+- !private ["s28SingleValueDecodingContainerP", "Double"]
+- !private ["s28SingleValueDecodingContainerP", "DoubleBox"]
+- !private ["s28SingleValueDecodingContainerP", "Float"]
+- !private ["s28SingleValueDecodingContainerP", "FloatBox"]
+- !private ["s28SingleValueDecodingContainerP", "IntBox"]
+- !private ["s28SingleValueDecodingContainerP", "KeyedBox"]
+- !private ["s28SingleValueDecodingContainerP", "KeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "KeyedStorage"]
+- !private ["s28SingleValueDecodingContainerP", "NSData"]
+- !private ["s28SingleValueDecodingContainerP", "NSDate"]
+- !private ["s28SingleValueDecodingContainerP", "NSDecimalNumber"]
+- !private ["s28SingleValueDecodingContainerP", "NSString"]
+- !private ["s28SingleValueDecodingContainerP", "NSURL"]
+- !private ["s28SingleValueDecodingContainerP", "SharedBox"]
+- !private ["s28SingleValueDecodingContainerP", "SingleKeyedBox"]
+- !private ["s28SingleValueDecodingContainerP", "String"]
+- !private ["s28SingleValueDecodingContainerP", "StringBox"]
+- !private ["s28SingleValueDecodingContainerP", "UIntBox"]
+- !private ["s28SingleValueDecodingContainerP", "URL"]
+- !private ["s28SingleValueDecodingContainerP", "URLBox"]
+- !private ["s28SingleValueDecodingContainerP", "UnkeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "XMLChoiceDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "XMLDecoder"]
+- ["s28SingleValueDecodingContainerP", "XMLDecodingStorage"]
+- !private ["s28SingleValueDecodingContainerP", "XMLKey"]
+- !private ["s28SingleValueDecodingContainerP", "XMLKeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "XMLUnkeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "choiceContainer"]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- ["s28SingleValueDecodingContainerP", "container"]
+- !private ["s28SingleValueDecodingContainerP", "keyedContainer"]
+- !private ["s28SingleValueDecodingContainerP", "nodeDecodings"]
+- !private ["s28SingleValueDecodingContainerP", "options"]
+- ["s28SingleValueDecodingContainerP", "singleValueContainer"]
+- !private ["s28SingleValueDecodingContainerP", "storage"]
+- !private ["s28SingleValueDecodingContainerP", "topContainer"]
+- !private ["s28SingleValueDecodingContainerP", "typedBox"]
+- !private ["s28SingleValueDecodingContainerP", "unbox"]
+- ["s28SingleValueDecodingContainerP", "unkeyedContainer"]
+- ["s28SingleValueDecodingContainerP", "userInfo"]
+- !private ["8XMLCoder9StringBoxV", "deinit"]
+- !private ["8XMLCoder9StringBoxV", "init"]
+- !private ["8XMLCoder9StringBoxV", "unboxed"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Combine15TopLevelDecoderP", "KeyDecodingStrategy"]
+- ["7Combine15TopLevelDecoderP", "NodeDecoding"]
+- ["7Combine15TopLevelDecoderP", "Options"]
+- !private ["8XMLCoder27TypeErasedSharedBoxProtocolP", "init"]
+- !private ["8XMLCoder27TypeErasedSharedBoxProtocolP", "withShared"]
+- !private ["8XMLCoder7UIntBoxV", "init"]
+- !private ["8XMLCoder7UIntBoxV", "unbox"]
+- !private ["8XMLCoder6URLBoxV", "init"]
+- !private ["8XMLCoder6URLBoxV", "unboxed"]
+- !private ["s24UnkeyedDecodingContainerP", "init"]
+- !private ["8XMLCoder8ValueBoxP", "init"]
+- !private ["8XMLCoder8ValueBoxP", "unboxed"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "deinit"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "init"]
+- !private ["8XMLCoder10XMLDecoderC", "KeyDecodingStrategy"]
+- ["8XMLCoder10XMLDecoderC", "NodeDecoding"]
+- ["8XMLCoder10XMLDecoderC", "Options"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "AnyOptional"]
+- ["8XMLCoder24XMLDecoderImplementationC", "BinaryInteger"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Bool"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "BoolBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Box"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "ChoiceBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "CodingKey"]
+- ["8XMLCoder24XMLDecoderImplementationC", "CodingUserInfoKey"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Data"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "DataBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Date"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "DateBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Decimal"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "DecimalBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Decodable"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "DecodingError"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Double"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "DoubleBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "Float"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "FloatBox"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "IntBox"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "KeyedBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "KeyedDecodingContainer"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "KeyedStorage"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NSData"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NSDate"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NSDecimalNumber"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NSString"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NSURL"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "NullBox"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "SharedBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "SignedInteger"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "SingleKeyedBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "SingleValueDecodingContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "String"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "StringBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "UInt"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "UIntBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "URL"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "URLBox"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "UnkeyedBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "UnkeyedDecodingContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "UnsignedInteger"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "XMLChoiceCodingKey"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "XMLChoiceDecodingContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "XMLDecoder"]
+- ["8XMLCoder24XMLDecoderImplementationC", "XMLDecodingStorage"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "XMLKey"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "XMLKeyedDecodingContainer"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "XMLUnkeyedDecodingContainer"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "choiceContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "codingPath"]
+- ["8XMLCoder24XMLDecoderImplementationC", "container"]
+- ["8XMLCoder24XMLDecoderImplementationC", "deinit"]
+- ["8XMLCoder24XMLDecoderImplementationC", "errorContextLength"]
+- ["8XMLCoder24XMLDecoderImplementationC", "init"]
+- ["8XMLCoder24XMLDecoderImplementationC", "keyTransform"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "keyedContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "nodeDecodings"]
+- ["8XMLCoder24XMLDecoderImplementationC", "options"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "popContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "singleValueContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "storage"]
+- ["8XMLCoder24XMLDecoderImplementationC", "topContainer"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "typedBox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+- ["8XMLCoder24XMLDecoderImplementationC", "unkeyedContainer"]
+- ["8XMLCoder24XMLDecoderImplementationC", "userInfo"]
+- ["8XMLCoder18XMLDecodingStorageV", "init"]
+- !private ["8XMLCoder18XMLDecodingStorageV", "popContainer"]
+- !private ["8XMLCoder18XMLDecodingStorageV", "push"]
+- !private ["8XMLCoder18XMLDecodingStorageV", "topContainer"]
+- !private ["8XMLCoder6XMLKeyV", "deinit"]
+- !private ["8XMLCoder6XMLKeyV", "init"]
+- !private ["8XMLCoder25XMLKeyedDecodingContainerV", "deinit"]
+- !private ["8XMLCoder25XMLKeyedDecodingContainerV", "init"]
+- !private ["8XMLCoder27XMLUnkeyedDecodingContainerV", "deinit"]
+- !private ["8XMLCoder27XMLUnkeyedDecodingContainerV", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "8XMLCoder11AnyOptionalP"
+- !private "8XMLCoder11AnySequenceP"
+- "Sa"
+- !private "SK"
+- !private "8XMLCoder7BoolBoxV"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- !private "8XMLCoder9ChoiceBoxV"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "s13DecodingErrorO7ContextV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "8XMLCoder7DataBoxV"
+- "8XMLCoder10XMLDecoderC20DataDecodingStrategyO"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "8XMLCoder7DateBoxV"
+- "8XMLCoder10XMLDecoderC20DateDecodingStrategyO"
+- !private "8XMLCoder10DecimalBoxV"
+- !private "Se"
+- "s7DecoderP"
+- "s13DecodingErrorO"
+- !private "s26DefaultStringInterpolationV"
+- !private "8XMLCoder9DoubleBoxV"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "8XMLCoder8FloatBoxV"
+- !private "SH"
+- !private "8XMLCoder6IntBoxV"
+- "8XMLCoder10XMLDecoderC19KeyDecodingStrategyO"
+- "8XMLCoder8KeyedBoxV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "8XMLCoder12KeyedStorageV"
+- "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "8XMLCoder7NullBoxV"
+- !private "8XMLCoder10XMLDecoderC7OptionsV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "8XMLCoder9SharedBoxC"
+- !private "8XMLCoder17SharedBoxProtocolP"
+- !private "8XMLCoder9SimpleBoxP"
+- !private "8XMLCoder14SingleKeyedBoxV"
+- "s28SingleValueDecodingContainerP"
+- !private "8XMLCoder9StringBoxV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "7Combine15TopLevelDecoderP"
+- !private "8XMLCoder27TypeErasedSharedBoxProtocolP"
+- !private "8XMLCoder7UIntBoxV"
+- !private "8XMLCoder6URLBoxV"
+- !private "s24UnkeyedDecodingContainerP"
+- !private "8XMLCoder8ValueBoxP"
+- !private "8XMLCoder26XMLChoiceDecodingContainerV"
+- "8XMLCoder10XMLDecoderC"
+- "8XMLCoder24XMLDecoderImplementationC"
+- "8XMLCoder18XMLDecodingStorageV"
+- !private "8XMLCoder6XMLKeyV"
+- !private "8XMLCoder25XMLKeyedDecodingContainerV"
+- !private "8XMLCoder27XMLUnkeyedDecodingContainerV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d68488fae0e541fe8238e1ba0c02438f"

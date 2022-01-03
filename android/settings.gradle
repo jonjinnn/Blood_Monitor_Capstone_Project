@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "ven_vitals_android"

@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = "1.4.20"
+    repositories {
+        maven { url = "https://maven.google.com" }
+        jcenter { url = "https://jcenter.bintray.com" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url = "https://maven.google.com" }
+        jcenter { url = "https://jcenter.bintray.com" }
+        maven { url = "https://dl.bintray.com/mipt-npm/kscience" }
+        maven { url = "https://dl.bintray.com/mipt-npm/dataforge" }
+        maven { url = "https://dl.bintray.com/mipt-npm/dev" }
+        maven{ url = "https://dl.bintray.com/mipt-npm/scientifik"}
+        maven{ url = "https://kotlin.bintray.com/kotlinx"}
+        maven{ url = "https://dl.bintray.com/kotlin/ktor/"}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

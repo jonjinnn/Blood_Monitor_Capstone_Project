@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XMLChoiceDecodingContainer"
+provides-nominal:
+- "8XMLCoder26XMLChoiceDecodingContainerV"
+provides-member:
+- ["8XMLCoder26XMLChoiceDecodingContainerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "ChoiceBox"
+- "CodingKey"
+- "Decodable"
+- "Decoder"
+- !private "DecodingError"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "SharedBox"
+- "UnkeyedDecodingContainer"
+- !private "XMLChoiceCodingKey"
+- "XMLChoiceDecodingContainer"
+- "XMLDecoderImplementation"
+depends-member:
+- !private ["8XMLCoder3BoxP", "element"]
+- !private ["8XMLCoder3BoxP", "isNull"]
+- !private ["8XMLCoder3BoxP", "key"]
+- !private ["8XMLCoder3BoxP", "withShared"]
+- ["8XMLCoder9ChoiceBoxV", "deinit"]
+- !private ["8XMLCoder9ChoiceBoxV", "element"]
+- !private ["8XMLCoder9ChoiceBoxV", "key"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "keyTransform"]
+- !private ["s7DecoderP", "unbox"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s30KeyedDecodingContainerProtocolP", "DecodingError"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- ["s30KeyedDecodingContainerProtocolP", ""]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "container"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decoder"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["8XMLCoder9SharedBoxC", "deinit"]
+- !private ["8XMLCoder9SharedBoxC", "withShared"]
+- !private ["8XMLCoder17SharedBoxProtocolP", "withShared"]
+- !private ["8XMLCoder9SimpleBoxP", "element"]
+- !private ["8XMLCoder9SimpleBoxP", "key"]
+- !private ["s28SingleValueDecodingContainerP", "codingPath"]
+- !private ["s28SingleValueDecodingContainerP", "keyTransform"]
+- !private ["s28SingleValueDecodingContainerP", "unbox"]
+- !private ["8XMLCoder27TypeErasedSharedBoxProtocolP", "withShared"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "Bool"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "ChoiceBox"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "CodingKey"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "Decodable"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "Decoder"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "DecodingError"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "Key"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "KeyedDecodingContainer"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "SharedBox"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "UnkeyedDecodingContainer"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "XMLChoiceCodingKey"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "XMLDecoderImplementation"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "allKeys"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "codingPath"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "container"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "contains"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "decode"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "decodeIfPresent"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "decodeNil"]
+- !private ["8XMLCoder26XMLChoiceDecodingContainerV", "decoder"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "deinit"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "init"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "nestedContainer"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "nestedUnkeyedContainer"]
+- ["8XMLCoder26XMLChoiceDecodingContainerV", "superDecoder"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "codingPath"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "deinit"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "keyTransform"]
+- !private ["8XMLCoder24XMLDecoderImplementationC", "unbox"]
+depends-nominal:
+- !private "8XMLCoder3BoxP"
+- "8XMLCoder9ChoiceBoxV"
+- !private "s9CodingKeyP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "s5ErrorP"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "8XMLCoder9SharedBoxC"
+- !private "8XMLCoder17SharedBoxProtocolP"
+- !private "8XMLCoder9SimpleBoxP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "8XMLCoder27TypeErasedSharedBoxProtocolP"
+- "8XMLCoder26XMLChoiceDecodingContainerV"
+- !private "8XMLCoder24XMLDecoderImplementationC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7121f4aa98638bd104ee95fb42be2d37"

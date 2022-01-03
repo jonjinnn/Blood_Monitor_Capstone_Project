@@ -1,0 +1,10 @@
+framework module XMLCoder {
+  umbrella header "XMLCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module XMLCoder.__Swift {
+    exclude header "XMLCoder-Swift.h"
+}

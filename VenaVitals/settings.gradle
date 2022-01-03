@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        gradlePluginPortal()
+        maven { url "https://dl.bintray.com/kotlin/kotlin-eap" }
+    }
+    resolutionStrategy {
+        eachPlugin {
+            switch (requested.id.id) {
+                case 'kotlinx-atomicfu' : useModule("org.jetbrains.kotlinx:atomicfu-gradle-plugin:${requested.version}"); break;
+                case 'kotlin-multiplatform' : useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}"); break;
+                case 'kotlin2js' : useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}"); break;
+                case 'org.jetbrains.kotlin.frontend' : useModule("org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.45"); break;
+            }
+        }
+    }
+}
+enableFeaturePreview("GRADLE_METADATA")
+include ':app'
+rootProject.name = "VenaVitals"

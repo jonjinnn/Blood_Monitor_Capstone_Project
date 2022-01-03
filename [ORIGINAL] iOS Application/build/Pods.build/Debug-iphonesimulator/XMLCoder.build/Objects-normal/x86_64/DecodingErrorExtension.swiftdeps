@@ -1,0 +1,119 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s13DecodingErrorO", ""]
+- ["s13DecodingErrorO", "typeMismatch"]
+- ["s13DecodingErrorO", "_typeDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BoolBox"
+- "Box"
+- "CodingKey"
+- !private "DecimalBox"
+- "DecodingError"
+- !private "DoubleBox"
+- !private "FloatBox"
+- !private "FloatLiteralType"
+- !private "IntBox"
+- !private "IntegerLiteralType"
+- !private "KeyedBox"
+- !private "NullBox"
+- "String"
+- !private "StringLiteralType"
+- !private "UIntBox"
+- !private "UnkeyedBox"
+- !private "type"
+depends-member:
+- !private ["Sa", "deinit"]
+- !private ["8XMLCoder7BoolBoxV", "deinit"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["8XMLCoder10DecimalBoxV", "deinit"]
+- !private ["s13DecodingErrorO", "BoolBox"]
+- ["s13DecodingErrorO", "Box"]
+- ["s13DecodingErrorO", "CodingKey"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "DecimalBox"]
+- ["s13DecodingErrorO", "DecodingError"]
+- !private ["s13DecodingErrorO", "DoubleBox"]
+- !private ["s13DecodingErrorO", "FloatBox"]
+- !private ["s13DecodingErrorO", "IntBox"]
+- !private ["s13DecodingErrorO", "KeyedBox"]
+- !private ["s13DecodingErrorO", "NullBox"]
+- ["s13DecodingErrorO", "String"]
+- !private ["s13DecodingErrorO", "UIntBox"]
+- !private ["s13DecodingErrorO", "UnkeyedBox"]
+- ["s13DecodingErrorO", "_typeDescription"]
+- !private ["s13DecodingErrorO", "type"]
+- ["s13DecodingErrorO", "typeMismatch"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["8XMLCoder9DoubleBoxV", "deinit"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "_typeDescription"]
+- !private ["s5ErrorP", "type"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["8XMLCoder8FloatBoxV", "deinit"]
+- !private ["8XMLCoder6IntBoxV", "deinit"]
+- !private ["8XMLCoder8KeyedBoxV", "deinit"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "_typeDescription"]
+- !private ["10Foundation14LocalizedErrorP", "type"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["8XMLCoder7NullBoxV", "deinit"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["8XMLCoder7UIntBoxV", "deinit"]
+depends-nominal:
+- !private "Sa"
+- !private "8XMLCoder7BoolBoxV"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s23CustomStringConvertibleP"
+- !private "8XMLCoder10DecimalBoxV"
+- "s13DecodingErrorO"
+- !private "s26DefaultStringInterpolationV"
+- !private "8XMLCoder9DoubleBoxV"
+- !private "s5ErrorP"
+- !private "8XMLCoder8FloatBoxV"
+- !private "8XMLCoder6IntBoxV"
+- !private "8XMLCoder8KeyedBoxV"
+- !private "10Foundation14LocalizedErrorP"
+- !private "8XMLCoder7NullBoxV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "8XMLCoder7UIntBoxV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b4f432707e02afcb64efccf9bd9f3e1"

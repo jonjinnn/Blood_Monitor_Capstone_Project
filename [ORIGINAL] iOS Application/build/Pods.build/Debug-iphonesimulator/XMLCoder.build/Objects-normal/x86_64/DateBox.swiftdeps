@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateBox"
+provides-nominal:
+- "8XMLCoder7DateBoxV"
+- "8XMLCoder7DateBoxV6FormatO"
+provides-member:
+- ["8XMLCoder7DateBoxV", ""]
+- ["8XMLCoder7DateBoxV6FormatO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "/"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Box"
+- "CustomStringConvertible"
+- "Date"
+- "DateBox"
+- "DateFormatter"
+- "Equatable"
+- !private "FloatLiteralType"
+- "SimpleBox"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- !private "_iso8601Formatter"
+- !private "fatalError"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["8XMLCoder11AnyOptionalP", "callAsFunction"]
+- !private ["SB", "description"]
+- !private ["SB", "init"]
+- ["8XMLCoder3BoxP", "=="]
+- !private ["8XMLCoder3BoxP", "Date"]
+- !private ["8XMLCoder3BoxP", "TimeInterval"]
+- ["8XMLCoder3BoxP", ""]
+- !private ["8XMLCoder3BoxP", "_iso8601Formatter"]
+- ["8XMLCoder3BoxP", "description"]
+- !private ["8XMLCoder3BoxP", "fatalError"]
+- !private ["8XMLCoder3BoxP", "format"]
+- !private ["8XMLCoder3BoxP", "init"]
+- ["8XMLCoder3BoxP", "isNull"]
+- !private ["8XMLCoder3BoxP", "unboxed"]
+- ["8XMLCoder3BoxP", "xmlString"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "string"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_iso8601Formatter"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "format"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isNull"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "unboxed"]
+- ["s23CustomStringConvertibleP", "xmlString"]
+- !private ["10Foundation4DateV", "description"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["8XMLCoder7DateBoxV", "=="]
+- ["8XMLCoder7DateBoxV", "Bool"]
+- ["8XMLCoder7DateBoxV", "Date"]
+- ["8XMLCoder7DateBoxV", "DateFormatter"]
+- ["8XMLCoder7DateBoxV", "Equatable"]
+- ["8XMLCoder7DateBoxV", "Format"]
+- ["8XMLCoder7DateBoxV", "String"]
+- !private ["8XMLCoder7DateBoxV", "TimeInterval"]
+- ["8XMLCoder7DateBoxV", "Unboxed"]
+- ["8XMLCoder7DateBoxV", "__derived_struct_equals"]
+- !private ["8XMLCoder7DateBoxV", "_iso8601Formatter"]
+- ["8XMLCoder7DateBoxV", "deinit"]
+- ["8XMLCoder7DateBoxV", "description"]
+- !private ["8XMLCoder7DateBoxV", "fatalError"]
+- ["8XMLCoder7DateBoxV", "format"]
+- ["8XMLCoder7DateBoxV", "init"]
+- ["8XMLCoder7DateBoxV", "isNull"]
+- ["8XMLCoder7DateBoxV", "unboxed"]
+- ["8XMLCoder7DateBoxV", "xmlString"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Sd", "description"]
+- !private ["Sd", "init"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSince1970"]
+- ["SQ", "=="]
+- !private ["SQ", "Date"]
+- !private ["SQ", "TimeInterval"]
+- ["SQ", ""]
+- !private ["SQ", "_iso8601Formatter"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "date"]
+- ["SQ", "description"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "format"]
+- ["SQ", "formatter"]
+- !private ["SQ", "init"]
+- ["SQ", "isNull"]
+- ["SQ", "iso8601"]
+- ["SQ", "millisecondsSince1970"]
+- ["SQ", "secondsSince1970"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "unboxed"]
+- ["SQ", "xmlString"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["SF", "description"]
+- !private ["SF", "init"]
+- ["8XMLCoder7DateBoxV6FormatO", "=="]
+- ["8XMLCoder7DateBoxV6FormatO", "DateFormatter"]
+- ["8XMLCoder7DateBoxV6FormatO", "__derived_enum_equals"]
+- ["8XMLCoder7DateBoxV6FormatO", "deinit"]
+- ["8XMLCoder7DateBoxV6FormatO", "formatter"]
+- ["8XMLCoder7DateBoxV6FormatO", "iso8601"]
+- ["8XMLCoder7DateBoxV6FormatO", "millisecondsSince1970"]
+- ["8XMLCoder7DateBoxV6FormatO", "secondsSince1970"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "date"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "string"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["So22NSISO8601DateFormatterC", "date"]
+- !private ["So22NSISO8601DateFormatterC", "string"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So14NSSecureCodingP", "date"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- ["8XMLCoder9SimpleBoxP", "=="]
+- !private ["8XMLCoder9SimpleBoxP", "Date"]
+- !private ["8XMLCoder9SimpleBoxP", "TimeInterval"]
+- ["8XMLCoder9SimpleBoxP", ""]
+- !private ["8XMLCoder9SimpleBoxP", "_iso8601Formatter"]
+- ["8XMLCoder9SimpleBoxP", "description"]
+- !private ["8XMLCoder9SimpleBoxP", "fatalError"]
+- !private ["8XMLCoder9SimpleBoxP", "format"]
+- !private ["8XMLCoder9SimpleBoxP", "init"]
+- ["8XMLCoder9SimpleBoxP", "isNull"]
+- !private ["8XMLCoder9SimpleBoxP", "unboxed"]
+- ["8XMLCoder9SimpleBoxP", "xmlString"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "8XMLCoder11AnyOptionalP"
+- !private "SB"
+- "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "8XMLCoder7DateBoxV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "8XMLCoder7DateBoxV6FormatO"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "So22NSISO8601DateFormatterC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- "8XMLCoder9SimpleBoxP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "334a3860b97d0e408fab71c72ab3cfff"

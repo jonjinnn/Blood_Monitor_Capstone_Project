@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XMLChoiceEncodingContainer"
+provides-nominal:
+- "8XMLCoder26XMLChoiceEncodingContainerV"
+provides-member:
+- ["8XMLCoder26XMLChoiceEncodingContainerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Box"
+- "CastingPrecedence"
+- "ChoiceBox"
+- "CodingKey"
+- "Encodable"
+- "Encoder"
+- !private "KeyedBox"
+- "KeyedEncodingContainer"
+- "KeyedEncodingContainerProtocol"
+- !private "NullBox"
+- "SharedBox"
+- !private "UnkeyedBox"
+- "UnkeyedEncodingContainer"
+- !private "XMLChoiceCodingKey"
+- "XMLChoiceEncodingContainer"
+- !private "XMLEncoder"
+- "XMLEncoderImplementation"
+- !private "XMLKey"
+- !private "XMLKeyedEncodingContainer"
+- !private "XMLReferencingEncoder"
+- !private "XMLUnkeyedEncodingContainer"
+depends-member:
+- !private ["8XMLCoder11AnySequenceP", "append"]
+- !private ["8XMLCoder11AnySequenceP", "init"]
+- !private ["8XMLCoder11AnySequenceP", "removeLast"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "removeLast"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "removeLast"]
+- !private ["8XMLCoder3BoxP", "append"]
+- !private ["8XMLCoder3BoxP", "element"]
+- !private ["8XMLCoder3BoxP", "init"]
+- !private ["8XMLCoder3BoxP", "key"]
+- !private ["8XMLCoder3BoxP", "removeLast"]
+- !private ["8XMLCoder3BoxP", "withShared"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeLast"]
+- ["8XMLCoder9ChoiceBoxV", "deinit"]
+- !private ["8XMLCoder9ChoiceBoxV", "element"]
+- !private ["8XMLCoder9ChoiceBoxV", "init"]
+- !private ["8XMLCoder9ChoiceBoxV", "key"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "super"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeLast"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "super"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "super"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "removeLast"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "removeLast"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "append"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "init"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "removeLast"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "removeLast"]
+- !private ["s7EncoderP", "box"]
+- !private ["s7EncoderP", "codingPath"]
+- !private ["s7EncoderP", "init"]
+- !private ["s7EncoderP", "nodeEncodings"]
+- !private ["s7EncoderP", "options"]
+- !private ["SQ", "append"]
+- !private ["SQ", "init"]
+- !private ["SQ", "removeLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["SH", "append"]
+- !private ["SH", "init"]
+- !private ["SH", "removeLast"]
+- !private ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "_convertToCapitalized"]
+- !private ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "_convertToKebabCase"]
+- !private ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "_convertToLowercased"]
+- !private ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "_convertToSnakeCase"]
+- !private ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "_convertToUppercased"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "capitalized"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "convertToKebabCase"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "convertToSnakeCase"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "custom"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "lowercased"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "uppercased"]
+- ["8XMLCoder10XMLEncoderC19KeyEncodingStrategyO", "useDefaultKeys"]
+- !private ["8XMLCoder8KeyedBoxV", "deinit"]
+- !private ["8XMLCoder8KeyedBoxV", "init"]
+- !private ["s22KeyedEncodingContainerV", "init"]
+- !private ["s30KeyedEncodingContainerProtocolP", "ChoiceBox"]
+- ["s30KeyedEncodingContainerProtocolP", "Key"]
+- !private ["s30KeyedEncodingContainerProtocolP", "KeyedBox"]
+- !private ["s30KeyedEncodingContainerProtocolP", "KeyedEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "NullBox"]
+- !private ["s30KeyedEncodingContainerProtocolP", "SharedBox"]
+- !private ["s30KeyedEncodingContainerProtocolP", "UnkeyedBox"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLChoiceEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLEncoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLKey"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLKeyedEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLReferencingEncoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "XMLUnkeyedEncodingContainer"]
+- ["s30KeyedEncodingContainerProtocolP", ""]
+- ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "container"]
+- !private ["s30KeyedEncodingContainerProtocolP", "converted"]
+- ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeConditional"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "init"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedChoiceContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedKeyedContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "superEncoder"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "removeLast"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "removeLast"]
+- !private ["8XMLCoder10XMLEncoderC20NodeEncodingStrategyO", "nodeEncodings"]
+- !private ["8XMLCoder7NullBoxV", "deinit"]
+- !private ["8XMLCoder7NullBoxV", "init"]
+- !private ["8XMLCoder10XMLEncoderC7OptionsV", "keyEncodingStrategy"]
+- !private ["8XMLCoder10XMLEncoderC7OptionsV", "nodeEncodingStrategy"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sk", "removeLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeLast"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "removeLast"]
+- !private ["8XMLCoder9SharedBoxC", "deinit"]
+- !private ["8XMLCoder9SharedBoxC", "init"]
+- !private ["8XMLCoder9SharedBoxC", "withShared"]
+- !private ["8XMLCoder17SharedBoxProtocolP", "init"]
+- !private ["8XMLCoder17SharedBoxProtocolP", "withShared"]
+- !private ["8XMLCoder9SimpleBoxP", "element"]
+- !private ["8XMLCoder9SimpleBoxP", "init"]
+- !private ["8XMLCoder9SimpleBoxP", "key"]
+- !private ["s28SingleValueEncodingContainerP", "box"]
+- !private ["s28SingleValueEncodingContainerP", "codingPath"]
+- !private ["s28SingleValueEncodingContainerP", "init"]
+- !private ["s28SingleValueEncodingContainerP", "nodeEncodings"]
+- !private ["s28SingleValueEncodingContainerP", "options"]
+- !private ["8XMLCoder27TypeErasedSharedBoxProtocolP", "init"]
+- !private ["8XMLCoder27TypeErasedSharedBoxProtocolP", "withShared"]
+- !private ["s24UnkeyedEncodingContainerP", "init"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "Box"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "ChoiceBox"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "CodingKey"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "Encodable"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "Encoder"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "Key"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "KeyedBox"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "KeyedEncodingContainer"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "NullBox"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "SharedBox"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "UnkeyedBox"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "UnkeyedEncodingContainer"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLChoiceCodingKey"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLChoiceEncodingContainer"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLEncoder"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLEncoderImplementation"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLKey"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLKeyedEncodingContainer"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLReferencingEncoder"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "XMLUnkeyedEncodingContainer"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "codingPath"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "container"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "converted"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "deinit"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "encode"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "encodeConditional"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "encodeIfPresent"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "encodeNil"]
+- !private ["8XMLCoder26XMLChoiceEncodingContainerV", "encoder"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "init"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "nestedChoiceContainer"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "nestedContainer"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "nestedKeyedContainer"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "nestedUnkeyedContainer"]
+- ["8XMLCoder26XMLChoiceEncodingContainerV", "superEncoder"]
+- !private ["8XMLCoder10XMLEncoderC", "KeyEncodingStrategy"]
+- !private ["8XMLCoder24XMLEncoderImplementationC", "box"]
+- !private ["8XMLCoder24XMLEncoderImplementationC", "codingPath"]
+- !private ["8XMLCoder24XMLEncoderImplementationC", "deinit"]
+- !private ["8XMLCoder24XMLEncoderImplementationC", "nodeEncodings"]
+- !private ["8XMLCoder24XMLEncoderImplementationC", "options"]
+- !private ["8XMLCoder6XMLKeyV", "deinit"]
+- !private ["8XMLCoder6XMLKeyV", "init"]
+- !private ["8XMLCoder6XMLKeyV", "super"]
+- !private ["8XMLCoder25XMLKeyedEncodingContainerV", "deinit"]
+- !private ["8XMLCoder25XMLKeyedEncodingContainerV", "init"]
+- !private ["8XMLCoder21XMLReferencingEncoderC", "deinit"]
+- !private ["8XMLCoder21XMLReferencingEncoderC", "init"]
+- !private ["8XMLCoder27XMLUnkeyedEncodingContainerV", "deinit"]
+- !private ["8XMLCoder27XMLUnkeyedEncodingContainerV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+depends-nominal:
+- !private "8XMLCoder11AnySequenceP"
+- !private "Sa"
+- !private "SK"
+- !private "8XMLCoder3BoxP"
+- !private "s7CVarArgP"
+- "8XMLCoder9ChoiceBoxV"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "8XMLCoder19DynamicNodeEncodingP"
+- !private "SE"
+- !private "s7EncoderP"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "8XMLCoder10XMLEncoderC19KeyEncodingStrategyO"
+- !private "8XMLCoder8KeyedBoxV"
+- !private "s22KeyedEncodingContainerV"
+- "s30KeyedEncodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "8XMLCoder10XMLEncoderC20NodeEncodingStrategyO"
+- !private "8XMLCoder7NullBoxV"
+- !private "8XMLCoder10XMLEncoderC7OptionsV"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "8XMLCoder9SharedBoxC"
+- !private "8XMLCoder17SharedBoxProtocolP"
+- !private "8XMLCoder9SimpleBoxP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "8XMLCoder27TypeErasedSharedBoxProtocolP"
+- !private "s24UnkeyedEncodingContainerP"
+- "8XMLCoder26XMLChoiceEncodingContainerV"
+- !private "8XMLCoder10XMLEncoderC"
+- !private "8XMLCoder24XMLEncoderImplementationC"
+- !private "8XMLCoder6XMLKeyV"
+- !private "8XMLCoder25XMLKeyedEncodingContainerV"
+- !private "8XMLCoder21XMLReferencingEncoderC"
+- !private "8XMLCoder27XMLUnkeyedEncodingContainerV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ca4b217b315e8cd3b9f87ac9c2777017"

@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DynamicNodeEncoding"
+provides-nominal:
+- "8XMLCoder19DynamicNodeEncodingP"
+- "Sa"
+provides-member:
+- ["8XMLCoder19DynamicNodeEncodingP", ""]
+- ["Sa", ""]
+- ["8XMLCoder19DynamicNodeEncodingP", "nodeEncoding"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "CodingKey"
+- "Collection"
+- "DynamicNodeEncoding"
+- "Encodable"
+- "XMLEncoder"
+depends-member:
+- ["8XMLCoder11AnySequenceP", "nodeEncoding"]
+- ["Sa", "CodingKey"]
+- ["Sa", "DynamicNodeEncoding"]
+- ["Sa", "XMLEncoder"]
+- ["Sa", "deinit"]
+- ["Sa", "nodeEncoding"]
+- ["SK", "nodeEncoding"]
+- ["8XMLCoder3BoxP", "nodeEncoding"]
+- ["s7CVarArgP", "nodeEncoding"]
+- ["Sl", "CodingKey"]
+- ["Sl", "Collection"]
+- ["Sl", "DynamicNodeEncoding"]
+- !private ["Sl", "Element"]
+- ["Sl", "XMLEncoder"]
+- ["Sl", "nodeEncoding"]
+- ["10Foundation15ContiguousBytesP", "nodeEncoding"]
+- ["s28CustomDebugStringConvertibleP", "nodeEncoding"]
+- ["s17CustomReflectableP", "nodeEncoding"]
+- ["s23CustomStringConvertibleP", "nodeEncoding"]
+- ["10Foundation12DataProtocolP", "nodeEncoding"]
+- ["Se", "nodeEncoding"]
+- ["8XMLCoder19DynamicNodeEncodingP", "CodingKey"]
+- ["8XMLCoder19DynamicNodeEncodingP", "Collection"]
+- ["8XMLCoder19DynamicNodeEncodingP", "DynamicNodeEncoding"]
+- !private ["8XMLCoder19DynamicNodeEncodingP", "Element"]
+- ["8XMLCoder19DynamicNodeEncodingP", "XMLEncoder"]
+- ["8XMLCoder19DynamicNodeEncodingP", ""]
+- ["8XMLCoder19DynamicNodeEncodingP", "nodeEncoding"]
+- ["SE", "CodingKey"]
+- ["SE", "Collection"]
+- ["SE", "DynamicNodeEncoding"]
+- !private ["SE", "Element"]
+- ["SE", "XMLEncoder"]
+- ["SE", ""]
+- ["SE", "nodeEncoding"]
+- ["SQ", "nodeEncoding"]
+- ["s25ExpressibleByArrayLiteralP", "nodeEncoding"]
+- ["SH", "nodeEncoding"]
+- ["SM", "nodeEncoding"]
+- ["10Foundation19MutableDataProtocolP", "nodeEncoding"]
+- ["Sk", "nodeEncoding"]
+- ["Sm", "nodeEncoding"]
+- ["ST", "CodingKey"]
+- ["ST", "Collection"]
+- ["ST", "DynamicNodeEncoding"]
+- !private ["ST", "Element"]
+- ["ST", "XMLEncoder"]
+- ["ST", "nodeEncoding"]
+- ["8XMLCoder10XMLEncoderC", "NodeEncoding"]
+- ["s14_ArrayProtocolP", "nodeEncoding"]
+- ["s24_DestructorSafeContainerP", "nodeEncoding"]
+- ["s19_HasContiguousBytesP", "nodeEncoding"]
+- ["s35_HasCustomAnyHashableRepresentationP", "nodeEncoding"]
+- ["s21_ObjectiveCBridgeableP", "nodeEncoding"]
+depends-nominal:
+- "8XMLCoder11AnySequenceP"
+- "Sa"
+- "SK"
+- "8XMLCoder3BoxP"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "8XMLCoder19DynamicNodeEncodingP"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "Sk"
+- "Sm"
+- "ST"
+- "8XMLCoder10XMLEncoderC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/Pods/Target Support Files/XMLCoder/XMLCoder-umbrella.h"
+- "/Users/Mustafa/Documents/GitHub/venavitals_cbp_ios/build/Pods.build/Debug-iphonesimulator/XMLCoder.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84738e970cdb0c977b293965bdbda5e0"
